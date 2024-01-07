@@ -4,16 +4,16 @@ export const navbarList = [
         id: "services",
     },
     {
-        title: "Contact",
-        id: "contact",
-    },
-    {
         title: "Gallery",
         id: "gallery",
     },
     {
         title: "Why Us ?",
         id: "whyus",
+    },
+    {
+        title: "Contact",
+        id: "contact",
     }
    
 ];
