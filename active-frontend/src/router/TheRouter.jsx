@@ -6,6 +6,10 @@ import Gallery from "../pages/Gallery";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 import WhyUs from "../pages/WhyUs";
+import DesignPage from "../pages/DesignPage";
+import ConsultPage from "../pages/ConsultPage";
+import PlanningPage from "../pages/PlanningPage";
+import SurveyPlotPage from "../pages/SurveyPlotPage";
 
 const routes = [
   { path: "/", element: <HomePage /> },
@@ -13,6 +17,10 @@ const routes = [
   { path: "/gallery", element:<Gallery />},
   { path: "/whyus", element:<WhyUs />},
   { path: "/contact", element:<Contact />},
+  {path:"/design", element:<DesignPage />},
+  {path:"/consult", element:<ConsultPage />},
+  {path:"/planning", element:<PlanningPage />},
+  {path:"/surveyplot", element:<SurveyPlotPage />}
 
 ];
 
