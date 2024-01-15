@@ -31,10 +31,10 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-cyan-50 sticky top-0 z-50">
+    <div className="bg-white bg-opacity-80 sticky top-0 z-50">
       <div className="flex m-4 justify-between">
-        <div className="flex items-center hover:shadow-lg hover:shadow-blue-300">
-          {/* Logos */}
+        <div className="flex items-center rounded-2xl hover:shadow-lg hover:shadow-blue-300 transition duration-300 ease-in-out">
+          {/* Logo */}
           <div className="flex w-[100px] mx-5 items-center" onClick={handleTabClick}>
             <Link to="/" onClick={handleLogoClick} className="relative">
               <img src="src/assets/logo/constructionLogo.png" alt="Logo" />
@@ -73,9 +73,9 @@ function Navbar() {
               key={item.title}
               className={`flex text-blue-900 items-center w-full cursor-pointer ${
                 activeTab === item.title
-                  ? "font-bold text-lg"
-                  : "font-semidbold text-lg"
-              } hover:underline hover:shadow-blue-300 py-4 m-1 `}
+                  ? "font-medium text-lg focus:border-b-2 focus:border-blue-400"
+                  : "font-medium text-lg"
+              } hover:border-b-2 hover:border-blue-400 transition duration-100 ease-in-out justify-center py-4 m-1 `}
               onClick={() => handleTabClick(item.title)}
             >
               {item.title}

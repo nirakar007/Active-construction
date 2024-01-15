@@ -8,12 +8,12 @@ export const navbarList = [
         id: "gallery",
     },
     {
-        title: "Why Us ?",
-        id: "whyus",
-    },
-    {
         title: "Contact",
         id: "contact",
+    },
+    {
+        title: "Why Us ?",
+        id: "whyus",
     }
    
 ];
