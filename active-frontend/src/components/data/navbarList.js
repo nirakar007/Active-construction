@@ -12,7 +12,7 @@ export const navbarList = [
         id: "contact",
     },
     {
-        title: "Why Us ?",
+        title: "AboutUs",
         id: "whyus",
     }
    

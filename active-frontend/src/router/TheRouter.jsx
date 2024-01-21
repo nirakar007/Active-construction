@@ -10,6 +10,7 @@ import DesignPage from "../pages/DesignPage";
 import ConsultPage from "../pages/ConsultPage";
 import PlanningPage from "../pages/PlanningPage";
 import SurveyPlotPage from "../pages/SurveyPlotPage";
+import ConstructionPage from "../pages/ConstructionPage";
 
 const routes = [
   { path: "/", element: <HomePage /> },
@@ -20,7 +21,9 @@ const routes = [
   {path:"/design", element:<DesignPage />},
   {path:"/consult", element:<ConsultPage />},
   {path:"/planning", element:<PlanningPage />},
-  {path:"/surveyplot", element:<SurveyPlotPage />}
+  {path:"/surveyplot", element:<SurveyPlotPage />},
+  {path:"/construction", element:<ConstructionPage />}
+
 
 ];
 

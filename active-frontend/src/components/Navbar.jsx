@@ -13,7 +13,7 @@ function Navbar() {
       Contact: "/contact",
       Gallery: "/gallery",
       Services: "/services",
-      WhyUs: "/whyus",
+      "AboutUs": "/whyus",
     };
     if (routes[title]) {
       navigate(routes[title]);
@@ -31,13 +31,13 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white bg-opacity-80 sticky top-0 z-50">
+    <div className="bg-gradient-to-b from-white to-white opacity-95 sticky top-0 z-50">
       <div className="flex m-4 justify-between">
-        <div className="flex items-center rounded-2xl hover:shadow-lg hover:shadow-blue-300 transition duration-300 ease-in-out">
+        <div className="flex">
           {/* Logo */}
           <div className="flex w-[100px] mx-5 items-center" onClick={handleTabClick}>
             <Link to="/" onClick={handleLogoClick} className="relative">
-              <img src="src/assets/logo/constructionLogo.png" alt="Logo" />
+              <img src="src/assets/logo/logo.svg" alt="Logo" className="w-auto h-auto"/>
             </Link>
 
           </div>
@@ -66,7 +66,7 @@ function Navbar() {
           </button>
         </div>
 
-        {/* elements */}
+        {/* Elements */}
         <div className={`hidden md:flex w-[40%] p-2 items-center ${isBurgerMenuOpen ? 'hidden' : 'block'}`}>
           {navbarList.map((item) => (
             <div

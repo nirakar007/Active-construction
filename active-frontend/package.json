@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "latest_version"
+    "react-router-dom": "6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
