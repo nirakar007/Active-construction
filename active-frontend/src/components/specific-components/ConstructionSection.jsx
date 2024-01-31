@@ -13,8 +13,8 @@ function ConstructionSection() {
   return (
     <div>
         <div className="flex mx-10 h-auto justify-center">
-          <div className="">
-            <h2 className="bg-sky-50 p-5 font-thin text-3xl text-gray-700">
+          <div className="w-[100%]">
+            <h2 className="bg-sky-50 w-[100%] p-5 font-thin text-3xl text-gray-700">
               Construction
             </h2>
             <h1 className="pt-5 px-4 text-2xl w-[100%] text-sky-600">
@@ -25,7 +25,7 @@ function ConstructionSection() {
             </p>
 
             <button
-              class="bg-sky-600 hover:bg-sky-500 hover:shadow-sm hover:shadow-sky-300 text-white font-bold p-4 mx-5 mt-10 rounded-md transition duration-100 ease-in-out"
+              class="bg-sky-600 hover:bg-sky-500 hover:shadow-sm hover:shadow-sky-300 text-white font-bold p-4 mx-2 mt-10 rounded-md transition duration-100 ease-in-out"
               onClick={() => handleLearnMoreClick("/construction")}
             >
               Learn More {">"}

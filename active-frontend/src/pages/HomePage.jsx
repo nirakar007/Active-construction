@@ -8,6 +8,7 @@ import Footer from "../components/specific-components/Footer";
 import ConstructionPage from "./ConstructionPage";
 import ConstructionSection from "../components/specific-components/ConstructionSection";
 
+
 function HomePage() {
   const navigate = useNavigate();
 
@@ -15,10 +16,12 @@ function HomePage() {
     navigate(path);
   };
 
+  
   return (
     <>
       {/* section 1 */}
       <div className="flex">
+      
         <div className="flex mx-24 p-20">
           {/* hero section description */}
           <div className="flex flex-col  space-y-10">
@@ -53,22 +56,26 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 mx-28">
+      <div className="flex flex-col items-center gap-10 mx-28">
 
         {/* DESIGN */}
-        <DesignSection />
+        <div className="font-bold text-xl">Design</div>
 
         {/* CONSULT Section */}
-        <ConsultSection />
+        <div className="font-bold text-xl">Consult</div>
+
 
         {/* Planning section  */}
-        <PlanningSection />
+        <div className="font-bold text-xl">Planning</div>
+
 
         {/* Survey and Plotting section  */}
-        <SurveyPlottingSection />
+        <div className="font-bold text-xl">Survey and Plotting</div>
+
 
         {/* Construction section  */}
-        <ConstructionSection />
+        <div className="font-bold text-xl">Construction</div>
+
 
       </div>
       <Footer />
