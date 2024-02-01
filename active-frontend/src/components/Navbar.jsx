@@ -25,6 +25,7 @@ function Navbar() {
       Gallery: "/gallery",
       Services: "/services",
       "AboutUs": "/whyus",
+      "Work In Progress": "/workinprogress"
     };
     if (routes[title]) {
       navigate(routes[title]);
@@ -48,7 +49,7 @@ function Navbar() {
           {/* Logo */}
           <div className="flex w-[100px] mx-5 items-center" onClick={handleTabClick}>
             <Link to="/" onClick={handleLogoClick} className="relative">
-              <img src="src/assets/logo/logo.svg" alt="Logo" className="w-auto h-auto"/>
+              <img src="src/assets/logo/logo.svg" alt="Logo" className="w-[50px]"/>
             </Link>
 
           </div>
@@ -78,7 +79,7 @@ function Navbar() {
         </div>
 
         {/* Elements */}
-        <div className={`hidden md:flex w-[40%] p-2 items-center ${isBurgerMenuOpen ? 'hidden' : 'block'}`}>
+        <div className={`hidden md:flex w-[50%] p-2 items-center ${isBurgerMenuOpen ? 'hidden' : 'block'}`}>
           {navbarList.map((item) => (
             <div
               key={item.title}
@@ -111,7 +112,7 @@ function Navbar() {
       </div>
       <div>
       <motion.div
-        className="progress-bar h-2 bg-blue-500 fixed top-0 left-0 right-0 transform-origin-left z-90"
+        className="progress-bar h-1 bg-blue-500 fixed top-0 left-0 right-0 transform-origin-left z-90"
         style={{ scaleX }}
       />
       </div>

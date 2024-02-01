@@ -1,12 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import DesignSection from "../components/specific-components/DesignSection";
-import ConsultSection from "../components/specific-components/ConsultSection";
-import PlanningSection from "../components/specific-components/PlanningSection";
-import SurveyPlottingSection from "../components/specific-components/SurveyPlottingSection";
 import Footer from "../components/specific-components/Footer";
-import ConstructionPage from "./ConstructionPage";
-import ConstructionSection from "../components/specific-components/ConstructionSection";
 
 
 function HomePage() {
@@ -50,6 +44,14 @@ function HomePage() {
         </div>
       </div>
 
+       {/* DESIGN */}
+       <div className="flex justify-center font-medium text-xl h-[100vh] mt-10">
+        <div className="flex flex-col gap-10">
+        Work in progress display
+        <p className="bg-blue-500 text-xs">learn more button{">"}</p>
+        </div>
+       </div>
+      
       <div className="flex mt-20 justify-center">
         <div className="flex p-5 mb-10 border-b w-[50%] justify-center">
           <h1 className="font-light text-3xl ">Services</h1>
