@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d2be0e-c0ae-4341-a3b1-5c28ac7529a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/active_construction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rainShedDesign.glb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -49,9 +37,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2blfZlokcejWY9snAbaqewR31cN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -81,6 +69,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.active.active_construction.model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ActiveConstructionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="active_construction" />
@@ -105,7 +98,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706794646812</updated>
-      <workItem from="1706794648560" duration="3911000" />
+      <workItem from="1706794648560" duration="4353000" />
+      <workItem from="1706846330286" duration="1386000" />
+      <workItem from="1706849511046" duration="2496000" />
+      <workItem from="1706853931866" duration="961000" />
+      <workItem from="1706926232107" duration="4852000" />
+      <workItem from="1706932409644" duration="354000" />
     </task>
     <servers />
   </component>
