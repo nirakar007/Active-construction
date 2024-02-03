@@ -8,4 +8,5 @@ public interface UserService {
     public User saveUser(User user);
 
     List<User> getAllAdmins();
+    void categorizeUsers();
 }

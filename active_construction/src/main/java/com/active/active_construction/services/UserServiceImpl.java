@@ -24,5 +24,19 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByRole(UserRole.ADMIN);
     }
 
+    @Override
+    public void categorizeUsers() {
+        List<User> users = userRepository.findAll();
 
-}
+        for (User user : users) {
+            if (user.isHasContract()) {
+                user.setCategory("Contracted");
+            } else {
+                user.setCategory("Non-Contracted");
+            }
+        }
+        userRepository.saveAll(users);
+    }
+
+
+    }

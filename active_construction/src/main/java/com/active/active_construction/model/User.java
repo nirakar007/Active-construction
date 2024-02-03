@@ -14,6 +14,8 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(name="role")
     private UserRole role;
+    private boolean hasContract;
+    private String category;
 
     public long getId() {
         return id;
@@ -62,5 +64,21 @@ public class User {
 
     public void setQuery(String query) {
         this.query = query;
+    }
+
+    public boolean isHasContract() {
+        return hasContract;
+    }
+
+    public void setHasContract(boolean hasContract) {
+        this.hasContract = hasContract;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
