@@ -6,21 +6,48 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class User {
+public class Admin{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
     private String phone;
-    private String query;
+    private String imageUrl;
+    private String replyToQueries;
+    private String meetingReminders;
 
-    public long getId() {
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getReplyToQueries() {
+        return replyToQueries;
+    }
+
+    public void setReplyToQueries(String replyToQueries) {
+        this.replyToQueries = replyToQueries;
+    }
+
+    public String getMeetingReminders() {
+        return meetingReminders;
+    }
+
+    public void setMeetingReminders(String meetingReminders) {
+        this.meetingReminders = meetingReminders;
     }
 
     public String getName() {
@@ -45,14 +72,5 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone;
-    }
-
-
-    public String getQuery() {
-        return query;
-    }
-
-    public void setQuery(String query) {
-        this.query = query;
     }
 }
