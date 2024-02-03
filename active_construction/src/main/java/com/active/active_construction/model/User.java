@@ -1,9 +1,6 @@
 package com.active.active_construction.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class User {
@@ -14,12 +11,15 @@ public class User {
     private String email;
     private String phone;
     private String query;
+    @Enumerated(EnumType.STRING)
+    @Column(name="role")
+    private UserRole role;
 
     public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -47,6 +47,14 @@ public class User {
         this.phone = phone;
     }
 
+
+    public UserRole getRole() {
+        return role;
+    }
+
+    public void setRole(UserRole role) {
+        this.role = role;
+    }
 
     public String getQuery() {
         return query;

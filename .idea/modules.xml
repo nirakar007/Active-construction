@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/active_construction.iml" filepath="$PROJECT_DIR$/.idea/active_construction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Active-construction.iml" filepath="$PROJECT_DIR$/.idea/Active-construction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/active_construction/active_construction.iml" filepath="$PROJECT_DIR$/active_construction/active_construction.iml" />
     </modules>
   </component>
 </project>
