@@ -12,12 +12,12 @@ export const navbarList = [
         id: "gallery",
     },
     {
-        title: "Contact",
+        title: "Contact Us",
         id: "contact",
     },
     {
-        title: "AboutUs",
-        id: "whyus",
+        title: "About Us",
+        id: "aboutus",
     }
    
 ];

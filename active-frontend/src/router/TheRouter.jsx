@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Gallery from "../pages/Gallery";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
-import WhyUs from "../pages/WhyUs";
+import AboutUs from "../pages/AboutUs";
 import DesignPage from "../pages/DesignPage";
 import ConsultPage from "../pages/ConsultPage";
 import PlanningPage from "../pages/PlanningPage";
@@ -17,7 +17,7 @@ const routes = [
   { path: "/", element: <HomePage /> },
   { path: "/services", element:<Services />},
   { path: "/gallery", element:<Gallery />},
-  { path: "/whyus", element:<WhyUs />},
+  { path: "/aboutus", element:<AboutUs />},
   { path: "/contact", element:<Contact />},
   {path:"/design", element:<DesignPage />},
   {path:"/consult", element:<ConsultPage />},

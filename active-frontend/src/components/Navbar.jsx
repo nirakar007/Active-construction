@@ -21,11 +21,11 @@ function Navbar() {
   const handleTabClick = (title) => {
     const routes = {
       HomePage: "/",
-      Contact: "/contact",
+      "Contact Us": "/contact",
       Gallery: "/gallery",
       Services: "/services",
-      "AboutUs": "/whyus",
-      "Work In Progress": "/workinprogress"
+      "About Us": "/aboutus",
+      // "Work In Progress": "/workinprogress"
     };
     if (routes[title]) {
       navigate(routes[title]);

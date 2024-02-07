@@ -11,6 +11,9 @@ public class User {
     private String email;
     private String phone;
     private String query;
+    @Lob
+    @Basic(fetch = FetchType.LAZY)
+    private byte[] image;
     @Enumerated(EnumType.STRING)
     @Column(name="role")
     private UserRole role;
@@ -80,5 +83,13 @@ public class User {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
     }
 }

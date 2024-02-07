@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d2be0e-c0ae-4341-a3b1-5c28ac7529a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/AdminServiceImpl.java" afterDir="false" />
+    <list default="true" id="59d2be0e-c0ae-4341-a3b1-5c28ac7529a1" name="Changes" comment="made category and hasContract column">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/AboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/DesignPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/DesignPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/WhyUs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +46,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,6 +85,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,7 +127,24 @@
       <workItem from="1706853931866" duration="961000" />
       <workItem from="1706926232107" duration="4852000" />
       <workItem from="1706932409644" duration="354000" />
+      <workItem from="1706947797551" duration="459000" />
+      <workItem from="1706955645077" duration="440000" />
+      <workItem from="1707032244016" duration="9000" />
+      <workItem from="1707160741086" duration="5688000" />
+      <workItem from="1707202366612" duration="3091000" />
+      <workItem from="1707224048157" duration="133000" />
+      <workItem from="1707228333747" duration="3521000" />
+      <workItem from="1707234428328" duration="1509000" />
     </task>
+    <task id="LOCAL-00001" summary="made category and hasContract column">
+      <option name="closed" value="true" />
+      <created>1706956065471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706956065471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="made category and hasContract column" />
+    <option name="LAST_COMMIT_MESSAGE" value="made category and hasContract column" />
   </component>
 </project>

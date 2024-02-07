@@ -1,21 +1,23 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Footer from "../components/specific-components/Footer";
+// import {CarouselComponent} from "../components/sharedComponents/Carousel";
 
 
 function HomePage() {
-  const navigate = useNavigate();
+  
+  // const navigate = useNavigate();
 
-  const handleLearnMoreClick = (path) => {
-    navigate(path);
-  };
+
+  // const handleLearnMoreClick = (path) => {
+  //   navigate(path);
+  // };
 
   
   return (
     <>
       {/* section 1 */}
       <div className="flex">
-      
         <div className="flex mx-24 p-20">
           {/* hero section description */}
           <div className="flex flex-col  space-y-10">
@@ -47,6 +49,9 @@ function HomePage() {
        {/* DESIGN */}
        <div className="flex justify-center font-medium text-xl h-[100vh] mt-10">
         <div className="flex flex-col gap-10">
+          <div className="hover:opacity-50" > // maybe a function to directly direct to the wip gallery
+            {/* <CarouselComponent /> */}
+          </div>
         Work in progress display
         <p className="bg-blue-500 text-xs">learn more button{">"}</p>
         </div>
