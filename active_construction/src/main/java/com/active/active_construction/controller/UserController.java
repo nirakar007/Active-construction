@@ -36,16 +36,16 @@ public class UserController {
         return ResponseEntity.ok("Users categorized successfully.");
     }
 
-    @PostMapping("/uploadImage/{userId}")
-    public ResponseEntity<String> uploadImage(@PathVariable Long userId, @RequestParam MultipartFile imageFile) {
-        User addedUser = userService.saveUser(user);
-        Map<String, Long> response = new HashMap<>();
-        response.put("userId", addedUser.getId());
+    // @PostMapping("/uploadImage/{userId}")
+    // public ResponseEntity<String> uploadImage(@PathVariable Long userId, @RequestParam MultipartFile imageFile) {
+    //     User addedUser = userService.saveUser(user);
+    //     Map<String, Long> response = new HashMap<>();
+    //     response.put("userId", addedUser.getId());
 
 
-        userService.uploadImage(userId, imageFile);
-        return ResponseEntity.ok("Image uploaded successfully");
-    }
+    //     userService.uploadImage(userId, imageFile);
+    //     return ResponseEntity.ok("Image uploaded successfully");
+    // }
 
 
 }

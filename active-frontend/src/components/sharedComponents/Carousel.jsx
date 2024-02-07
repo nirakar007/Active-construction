@@ -1,44 +1,52 @@
+// Carousel.jsx
 import React from 'react';
-import { Swiper } from 'swiper/react';
-import images from '../data/wip_sliderImgs';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
+import CarouselItem from './CarouselItem';
 
-// Assuming CarouselItem is a separate component for individual items
-const CarouselItem = ({ item }) => (
-  <div key={item.id} className='hover:scale-50'>
-    <div className="border border-gray-10 shadow-custom-nav-shadow rounded-md flex transition-transform transform hover:scale-105 duration-500 ease-out cursor-pointer">
-      <img src={item.url} alt={item.id} className='w-full h-full object-cover' />
-    </div>
-  </div>
-);
-
-const Carousel = () => (
-  <Swiper
-    spaceBetween={30}
-    centeredSlides={true}
-    autoplay={{
-      delay: 2500,
-      disableOnInteraction: false,
-    }}
-    pagination={{
-      clickable: true,
-    }}
-    navigation={true}
-    modules={[Autoplay, Pagination, Navigation]}
-    className="mySwiper"
-  >
-    <div className="flex justify-start flex-wrap gap-3 pl-1">
-      {images
-        ?.filter((item) => item.category === 'interior')
-        ?.map((item) => (
-          <CarouselItem key={item.id} item={item} />
-        ))}
-    </div>
-  </Swiper>
-);
+const Carousel = ({ images }) => {
+  return (
+    <Swiper
+        slidesPerView={1}
+        spaceBetween={500}
+        grabCursor={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
+        modules={[Pagination, Autoplay]}
+        className="mySwiper w-[1200px] h-[60vh]"
+      >
+      {images.slice(2,7).map((image) => (
+        <SwiperSlide key={image.id} className="flex items-center justify-center">
+          <div className="p-4 w-[600px] h-[600px]">
+            <CarouselItem image={image} />
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
+};
 
 export default Carousel;

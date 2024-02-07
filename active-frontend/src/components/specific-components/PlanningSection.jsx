@@ -10,11 +10,12 @@ function PlanningSection() {
   return (
     <div>
         <div className="flex h-auto">
-        <div className="flex mx-10 h-auto justify-center">
+        <div className="flex h-auto justify-center">
           <div className="">
-            <h2 className="bg-blue-50 p-5 font-thin text-3xl text-gray-700">
+            <h2 className="bg-blue-50 py-5 px-2 font-thin text-3xl text-gray-700">
               Planning
             </h2>
+            <div className='px-5'>
             <h1 className="pt-5 px-4 text-2xl w-[80%] text-blue-900">
             What sets us apart in Nepal's construction landscape?
             </h1>
@@ -30,6 +31,7 @@ function PlanningSection() {
             >
               Learn More {">"}
             </button>
+            </div>
           </div>
           <div className="w-[610px] h-[614px] object-fill items-center">
             <img

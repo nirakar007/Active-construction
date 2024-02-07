@@ -12,13 +12,13 @@ function ConsultSection() {
 
   return (
     <div>
-        <div className="flex mx-10 h-auto justify-center">
+        <div className="flex h-auto justify-center">
           <div className="">
-            <h2 className="bg-green-50 p-5 font-thin text-3xl text-gray-700">
+            <h2 className="bg-green-50 py-5 px-2 font-thin text-3xl text-gray-700">
               Consult
             </h2>
-            <h1 className="pt-5 px-4 text-2xl w-[80%] text-lime-600">
-              Having trouble in making big decisions?
+            <h1 className="pt-5 px-4 text-4xl font-semibold w-[80%] text-green-500">
+              Big decisions?
             </h1>
             <p className="flex flex-wrap text-lg py-7 px-4 w-[55%]">
               You have come to the right place. We help with your problems
