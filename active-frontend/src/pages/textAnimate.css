@@ -1,0 +1,48 @@
+.gradient-text {
+    background: linear-gradient(to right, #1E1E1E, #B0B0B0);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+  }
+
+  .textBoink{
+    background: linear-gradient(to right, #3eb2ff, #0792dc);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }
+
+  .textDesign{
+    background: linear-gradient(to right, #0079c5, #027aca);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }
+
+  .textConsult{
+    background: linear-gradient(to right, #6e8bff, #2b6dd0);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }
+
+  .textPlan{
+    background: linear-gradient(to right, #3eb2ff, #dec400);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }
+
+  .textSurveyPlot{
+    background: linear-gradient(to right, #0682d4, #14c30a);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }
+
+   .textConstruct{
+    background: linear-gradient(to right, #3eb2ff, #ffb011);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 100% 200%;
+  }

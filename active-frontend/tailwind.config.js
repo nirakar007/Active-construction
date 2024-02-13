@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'jost':['Jost','sans-serif'],
+    },
     screens: {
       sm: '480px',
       md: '768px',

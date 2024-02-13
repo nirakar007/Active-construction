@@ -21,7 +21,7 @@ function HeroSection() {
               no matter what kind of land it is.
             </p>
             <button class="w-32 bg-blue-900 hover:bg-blue-800 hover:shadow-sm hover:shadow-cyan-500 text-white font-bold p-4 mt-4 rounded-md transition duration-200 ease-in-out" 
-            onClick={() => {handleLearnMoreClick("/contact")}}>
+            onClick={() => {handleLearnMoreClick("/services")}}>
               Learn More
               {/* direct to gallery, a section specifically made for the complicated designs to standout */}
             </button>

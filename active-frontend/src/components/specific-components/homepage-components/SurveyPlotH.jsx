@@ -12,7 +12,7 @@ function SurveyPlotH() {
                 It just keeps getting better
               </h2>
             </div>
-            <p className="font-thin mt-2">Finesse plots, and field survey.</p>
+            <p className="font-thin mt-2">Exemplary Land Plotting and Survey Services.</p>
             <p className="font-medium mt-2">No stones unturned.</p>
           </div>
         </div>

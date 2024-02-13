@@ -13,13 +13,13 @@ function DesignH() {
           {/* image interior and exterior */}
           <div className="flex gap-4 w-full">
             <div className="relative w-full">
-              <img
+              <img  
                 src="src/assets/banasthali_wip/exterior/7.jpg"
                 alt="exterior"
                 className="w-[500px] h-[500px] p-2 shadow"
               />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="text-white text-lg font-bold">Exterior</span>
+                <span className="text-white text-3xl font-bold">Exterior</span>
               </div>
             </div>
             <div className="relative w-full">
@@ -29,7 +29,8 @@ function DesignH() {
                 className="w-[500px] h-[500px] p-2 shadow"
               />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer">
-                <span className="text-white text-lg font-bold">Interior</span>
+                <span className="text-white text-3xl font-bold z-20">Interior</span>
+                <span className="bg-black opacity-20 z-10"></span>
               </div>
             </div>
           </div>

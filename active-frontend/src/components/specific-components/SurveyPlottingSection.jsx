@@ -35,7 +35,7 @@ function SurveyPlottingSection() {
           </div>
           <div className="w-[610px] h-[614px] object-fill items-center">
             <img
-              src="https://images.adsttc.com/media/images/5a46/57a8/b22e/38b7/0700/0234/original/Fernando_De_Rossa___Virginia_Miguel.gif?1514559397"
+              src="https://images.squarespace-cdn.com/content/v1/53ee3064e4b05a8690c4fbcd/1544049853860-6GSCUEVES4B3VG6HOCD9/mapper.gif"
               alt="img"
             />
           </div>

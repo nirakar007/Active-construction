@@ -31,13 +31,13 @@ function HomePage() {
       <div className="flex justify-center font-medium text-xl h-auto mt-10">
         <div className="flex">
           <div className="flex flex-col items-center justify-center w-[100%]">
-            <h1 className="text-xl font-thin">Ongoing Projects:</h1>
+            <h1 className="text-2xl mb-4 font-jost">Ongoing Projects:</h1>
             <Carousel images={images} />
           </div>
           <div>
             <button
               onClick={() => handleLearnMoreClick("/workinprogress")}
-              className="text-blue-900 hover:bg-blue-800 hover:shadow-sm hover:shadow-cyan-500 hover:text-white font-bold p-4 mt-12 rounded-sm transition duration-200 ease-in-out"
+              className="text-blue-900 hover:bg-blue-500 hover:shadow-sm hover:shadow-cyan-500 hover:text-white font-bold p-4 mt-12 transition duration-200 ease-in-out"
             >
               {">"}
             </button>
@@ -47,7 +47,7 @@ function HomePage() {
 
       <div className="flex mt-20 justify-center">
         <div className="flex p-5 mb-10 border-b w-[50%] justify-center">
-          <h1 className="font-light text-xl ">Services</h1>
+          <h1 className="font-light font-jost text-xl opacity-80">Services</h1>
         </div>
       </div>
 

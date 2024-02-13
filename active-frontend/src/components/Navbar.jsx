@@ -49,7 +49,7 @@ function Navbar() {
           {/* Logo */}
           <div className="flex w-[100px] mx-5 items-center" onClick={handleTabClick}>
             <Link to="/" onClick={handleLogoClick} className="relative">
-              <img src="src/assets/logo/logo.svg" alt="Logo" className="w-[50px]"/>
+              <img src="src/assets/logo/logo.svg" alt="Logo" className="w-[50px] pt-1"/>
             </Link>
 
           </div>

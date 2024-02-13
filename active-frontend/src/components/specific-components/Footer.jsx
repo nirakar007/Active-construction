@@ -16,10 +16,18 @@ const Footer = () => {
           className="w-[50px] cursor-pointer"
           onClick={handleLogoClick}
         />
-        <div className="flex p-1">
-          <FaLocationDot className="text-sm mr-2" />
-          <span className="text-xs font-semibold">
+        <div className="flex flex-col p-1 gap-2">
+          <span className="flex text-xs font-semibold">
+          <FaLocationDot className="text-sm" />
             Khusibun, Kathmandu, Nepal
+          </span>
+          <span className="ml-20 font-semibold">
+            <p className="text-xs">
+              +977 9851096535  
+            </p>
+            <p className="text-xs">
+              +977 9849096535  
+            </p>
           </span>
         </div>
       </div>
