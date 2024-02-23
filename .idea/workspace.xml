@@ -8,27 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d2be0e-c0ae-4341-a3b1-5c28ac7529a1" name="Changes" comment="made category and hasContract column">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/AboutUs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/animation/Reveal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/animation/Reveal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/animation/TextAnimation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/animation/TextAnimation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ImageGrid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ImageGrid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConstructionH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConstructionH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConsultH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConsultH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/DesignH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/DesignH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/PlanningH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/PlanningH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/SurveyPlotH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/SurveyPlotH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/ConstructionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/ConstructionPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/ConsultPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/ConsultPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/DesignPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/DesignPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/Gallery.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/WhyUs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/PlanningPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/PlanningPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/SurveyPlotPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/SurveyPlotPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/WorkInProgress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/WorkInProgress.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/textAnimate.css" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/textAnimate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,31 +76,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ActiveConstructionApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ActiveConstructionApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.active.active_construction.model" />
@@ -135,6 +144,12 @@
       <workItem from="1707224048157" duration="133000" />
       <workItem from="1707228333747" duration="3521000" />
       <workItem from="1707234428328" duration="1509000" />
+      <workItem from="1707504937365" duration="4958000" />
+      <workItem from="1707713092955" duration="602000" />
+      <workItem from="1707722262762" duration="31000" />
+      <workItem from="1707812591162" duration="53000" />
+      <workItem from="1707872748553" duration="16000" />
+      <workItem from="1708145328420" duration="4617000" />
     </task>
     <task id="LOCAL-00001" summary="made category and hasContract column">
       <option name="closed" value="true" />

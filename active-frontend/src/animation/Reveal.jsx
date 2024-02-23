@@ -16,12 +16,13 @@ const Reveal = ({ children, width = "fit-content" }) => {
     }, [isInView]);
 
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
+    <div ref={ref} style={{ position: "relative",}}>
       <motion.div
       variants={{
         u: {opacity: 0, y: 75},
         v: {opacity: 1, y: 0},
       }}
+      ref={ref}
       initial="u"
       animate="v"
       transition={{duration: 0.75, delay: 0.25}}

@@ -4,6 +4,7 @@ import "./textAnimate.css";
 import Footer from "../components/specific-components/Footer";
 import ContactForm from "../components/specific-components/ContactForm";
 import ImageGrid from "../components/sharedComponents/ImageGrid";
+import Reveal from "../animation/Reveal";
 
 function PlanningPage() {
   const flowingGradientVariants = {
@@ -19,9 +20,10 @@ function PlanningPage() {
         <h1 className="font-light">services/ </h1>
         <h1 className="text-lg">Planning</h1>
       </div>
+      <Reveal>
       <div>
         <div className="flex flex-col items-center justify-center mt-5">
-          <h1 className="text-3xl font-jost font-light textPlan">
+          <h1 className="text-3xl font-jost textPlan">
             Efficiency in Every Detail
           </h1>
           <span className="flex flex-col items-center mt-4 text-base leading-7 ">
@@ -39,8 +41,12 @@ function PlanningPage() {
         </div>
       </div>
 
-      {/* <div className="border h-[500px] w-[800px]">
-      {/* put the video in here </div>*/}
+      <div className="border-4 flex justify-center h-[500px] mt-5">
+        <div className="flex border-8 border-black justify-center items-center w-[50%]">
+
+        </div>
+       
+       </div>
 
       
 
@@ -88,6 +94,8 @@ function PlanningPage() {
           </motion.h2>
         </div>
       </div>
+
+      </Reveal>
 
       <ContactForm />
 

@@ -2,11 +2,10 @@ import React from 'react';
 import images from '../data/wip_sliderImgs';
 
 function ImageGrid() {
-  const numColumns = images.length >= 2 ? 2 : 1; // Set a minimum of 2 columns
 
   return (
     <div className="w-full h-[50vh] overflow-x-auto">
-      <div className={`grid grid-cols-${numColumns} gap-2 p-4`}>
+      <div className={`grid grid-cols-4 gap-2 p-2`}>
         {images.map((image) => (
           <div
             key={image.id}

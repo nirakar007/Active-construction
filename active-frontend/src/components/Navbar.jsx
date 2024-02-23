@@ -56,7 +56,7 @@ function Navbar() {
         </div>
 
         {/* Responsive Burger Menu */}
-        <div className="md:hidden">
+        <div className="md:hidden pt-3">
           <button
             onClick={handleBurgerMenuClick}
             className="text-blue-900 focus:outline-none"
@@ -97,7 +97,7 @@ function Navbar() {
 
         {/* Burger Menu Dropdown */}
         {isBurgerMenuOpen && (
-          <div className="md:hidden absolute top-16 right-4 w-[200px] h-[60vh] bg-white p-4 rounded-md shadow-md">
+          <div className="md:hidden absolute top-10 right-4 w-[200px] h-[60vh] bg-white p-4 rounded-md shadow-md">
             {navbarList.map((item) => (
               <div
                 key={item.title}

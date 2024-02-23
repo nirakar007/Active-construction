@@ -83,7 +83,7 @@ const ContactForm = () => {
   return (
     <div className="flex justify-evenly items-center">
       <div className="flex items-center gap-1">
-        <TextAnimation text="Questions or Feedback?" />
+        <TextAnimation text="Contact Us Now!" />
       </div>
       <div className="flex justify-between items-center p-3 bg-sky-50 rounded-md w-[50%] shadow-sm mt-5">
         <form onSubmit={handleSubmit} className="flex">

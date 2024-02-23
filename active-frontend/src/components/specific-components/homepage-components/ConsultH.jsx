@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ConsultH() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const navigate = useNavigate();
+
+  const handleLearnMoreClick = (path) => {
+    navigate(path);
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % 3);
-    }, 1500);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -15,11 +21,11 @@ function ConsultH() {
       <div>
         <div className="flex items-center justify-center w-full">
           <div className="flex flex-col items-center">
-            <h1 className="text-4xl font-medium mb-10">Consult</h1>
-            <div className="flex gap-5">
+            <h1 className="text-4xl font-medium mb-7 font-jost">Consult</h1>
+            <div className="flex gap-5 text-neutral-500 px-10">
               <h2
                 className={`text-2xl ${
-                  activeIndex === 0 ? "font-semibold" : "font-light"
+                  activeIndex === 0 ? "font-semibold animate-bounce text-orange-600" : "font-light"
                 }`}
                 
               >
@@ -27,26 +33,27 @@ function ConsultH() {
               </h2>
               <h2
                 className={`text-2xl ${
-                  activeIndex === 1 ? "font-semibold" : "font-light"
+                  activeIndex === 1 ? "font-semibold animate-bounce text-sky-600" : "font-light"
                 }`}
               >
                 Skilled,
               </h2>
               <h2
                 className={`text-2xl ${
-                  activeIndex === 2 ? "font-semibold" : "font-light"
+                  activeIndex === 2 ? "font-semibold animate-bounce text-yellow-600" : "font-light"
                 }`}
               >
                 Enthusiastic.
               </h2>
             </div>
 
-            <p className="font-medium text-2xl text-green-500 mt-6">
-              Only the good parts.
+            <p className="text-green-800 mt-2">
+              All the good parts.
             </p>
           </div>
         </div>
-        <div className="mt-10 w-full h-[50vh] border"></div>
+        <div className="mt-10 w-full h-[50vh] border cursor-pointer" 
+        onClick={() => handleLearnMoreClick("/consult")}></div>
       </div>
     </div>
   );

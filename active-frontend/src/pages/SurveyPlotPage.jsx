@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import "./textAnimate.css";
 import ContactForm from "../components/specific-components/ContactForm";
 import Footer from "../components/specific-components/Footer";
+import Reveal from "../animation/Reveal";
 
 function SurveyPlotPage() {
   const flowingGradientVariants = {
@@ -18,6 +19,7 @@ function SurveyPlotPage() {
         <h1 className="font-light">services/ </h1>
         <h1 className="text-lg">Survey&Plotting</h1>
       </span>
+      <Reveal>
       <div className="flex justify-center my-10">
         <h1 className="font-jost text-4xl font-light textSurveyPlot">
           Precision in Every Plot, Insight in Every Survey
@@ -79,7 +81,7 @@ function SurveyPlotPage() {
           unparalleled accuracy and insight.
         </p>
       </div>
-
+      </Reveal>
       <ContactForm />
       <Footer />
     </div>

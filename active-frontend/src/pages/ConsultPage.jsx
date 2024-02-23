@@ -20,12 +20,12 @@ function ConsultPage() {
 
   return (
     <div className="main">
+      <Reveal>
       <span className="flex justify-center">
       <h1 className="font-light">services/ </h1>
       <h1 className="text-lg">Consult</h1>
       </span>
       <div className="flex justify-center mb-20">
-        <Reveal>
           <span className="flex flex-col items-center mt-7 leading-9 p-2">
             <h1 className="font-jost text-3xl textConsult">Strategic Guidance with us.</h1>
             <p className="mt-4 justify-center text-neutral-600">
@@ -35,22 +35,21 @@ function ConsultPage() {
             <p className="text-neutral-600"> we ensure informed
               decision-making for project success.</p>
           </span>
-        </Reveal>
       </div>
 
       <div className="flex flex-col gap-24 justify-center items-center mt-4">
         <Reveal>
-          <span className=" flex flex-col z-0 items-center">
-            <h1 className="font-jost text-3xl font-light">Expert Advice:</h1>
-            <p className="mt-4 text-lg items-center text-neutral-500 w-[300px]">
+          <span className=" flex flex-col z-0 items-center p-10 shadow hover:shadow-lg rounded-md hover:scale-105 transition duration-200">
+            <h1 className="font-jost text-2xl font-light">Expert Advice:</h1>
+            <p className="mt-2 text-lg items-center text-neutral-500 w-[300px]">
               Benefit from seasoned professionals guiding your project.
             </p>
           </span>
         </Reveal>
 
         <Reveal>
-          <span className="flex flex-col z-0 items-center">
-            <h1 className="font-jost text-3xl font-light">
+          <span className="flex flex-col z-0 items-center p-10 shadow hover:shadow-lg rounded-md hover:scale-105 transition duration-200">
+            <h1 className="font-jost text-2xl font-light">
               Feasibility Studies:
             </h1>
             <p className="mt-4 text-lg items-center text-neutral-500 w-[300px]">
@@ -60,8 +59,8 @@ function ConsultPage() {
         </Reveal>
 
         <Reveal>
-          <span className=" flex flex-col z-0 items-center">
-            <h1 className="font-jost text-3xl font-light">
+          <span className=" flex flex-col z-0 items-center p-10 shadow hover:shadow-lg rounded-md hover scale-105 transition duration-200">
+            <h1 className="font-jost text-2xl font-light">
               Budgeting Support:
             </h1>
             <p className="mt-4 text-lg items-center text-neutral-500 w-[300px]">
@@ -69,7 +68,7 @@ function ConsultPage() {
             </p>
           </span>
         </Reveal>
-      </div>
+      </div>/
       <div className="flex justify-center my-32">
         <motion.h2
           variants={flowingGradientVariants}
@@ -94,6 +93,7 @@ function ConsultPage() {
         )}
       </figure>
 
+      </Reveal>
       <ContactForm />
       <Footer />
     </div>

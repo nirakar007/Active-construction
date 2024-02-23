@@ -1,34 +1,22 @@
-package com.active.active_construction.model;
+package com.active.active_construction.controller;
 
-import jakarta.persistence.*;
+
+import com.active.active_construction.model.UserRole;
 
 import java.util.Date;
 
-@Entity
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+public class UserRequest {
     private String name;
     private String email;
     private String phone;
-    private String query;
-    @Lob
-    @Basic(fetch = FetchType.LAZY)
-    private byte[] image;
-    @Enumerated(EnumType.STRING)
-    @Column(name="role")
+    private String message;
     private UserRole role;
-    private boolean hasContract;
+    private String query;
     private Date meetingDate;
 
-    public long getId() {
-        return id;
-    }
+    private byte[] image;  // Assuming you want to store the image as a byte array
 
-    public void setId(long id) {
-        this.id = id;
-    }
+    // Getters and setters
 
     public String getName() {
         return name;
@@ -54,6 +42,21 @@ public class User {
         this.phone = phone;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] file) {
+        this.image = file;
+    }
 
     public UserRole getRole() {
         return role;
@@ -69,18 +72,6 @@ public class User {
 
     public void setQuery(String query) {
         this.query = query;
-    }
-
-
-
-
-
-    public byte[] getImage() {
-        return image;
-    }
-
-    public void setImage(byte[] image) {
-        this.image = image;
     }
 
     public Date getMeetingDate() {

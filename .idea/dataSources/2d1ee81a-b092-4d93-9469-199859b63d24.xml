@@ -955,7 +955,7 @@
     </schema>
     <schema id="304" parent="1" name="active">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-02-06.14:44:38</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-02-13.08:23:49</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="305" parent="1" name="eclat">
@@ -985,7 +985,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="311" parent="310" name="id">
-      <AutoIncrement>5</AutoIncrement>
+      <AutoIncrement>13</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1023,12 +1023,16 @@
       <DasType>tinyblob|0s</DasType>
       <Position>9</Position>
     </column>
-    <index id="320" parent="310" name="PRIMARY">
+    <column id="320" parent="310" name="meeting_date">
+      <DasType>datetime(6)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="321" parent="310" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="321" parent="310" name="PRIMARY">
+    <key id="322" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

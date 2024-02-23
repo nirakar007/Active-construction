@@ -10,6 +10,7 @@ import PlanningH from "../components/specific-components/homepage-components/Pla
 import SurveyPlotH from "../components/specific-components/homepage-components/SurveyPlotH";
 import ConstructionH from "../components/specific-components/homepage-components/ConstructionH";
 import Reveal from "../animation/Reveal";
+import ContactForm from "../components/specific-components/ContactForm";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -27,30 +28,17 @@ function HomePage() {
       </div>
       </Reveal>
 
-      {/* Current projects */}
-      <div className="flex justify-center font-medium text-xl h-auto mt-10">
-        <div className="flex">
-          <div className="flex flex-col items-center justify-center w-[100%]">
-            <h1 className="text-2xl mb-4 font-jost">Ongoing Projects:</h1>
-            <Carousel images={images} />
-          </div>
-          <div>
-            <button
-              onClick={() => handleLearnMoreClick("/workinprogress")}
-              className="text-blue-900 hover:bg-blue-500 hover:shadow-sm hover:shadow-cyan-500 hover:text-white font-bold p-4 mt-12 transition duration-200 ease-in-out"
-            >
-              {">"}
-            </button>
-          </div>
-        </div>
-      </div>
-
+      
+      <Reveal>
       <div className="flex mt-20 justify-center">
         <div className="flex p-5 mb-10 border-b w-[50%] justify-center">
           <h1 className="font-light font-jost text-xl opacity-80">Services</h1>
         </div>
       </div>
+      </Reveal>
 
+
+      <Reveal>
       <div className="flex flex-col items-center">
         {/* DESIGN */}
         <div className="">
@@ -77,6 +65,26 @@ function HomePage() {
           <ConstructionH />
         </div>
       </div>
+      </Reveal>
+
+      {/* Current projects */}
+      <div className="flex justify-center font-medium text-xl h-auto mt-10 p-10">
+        <div className="flex">
+          <div className="flex flex-col items-center justify-center w-[100%]">
+            <h1 className="text-2xl mb-10 font-jost animate-bounce">Ongoing Projects:</h1>
+            <Carousel images={images} />
+          </div>
+          <div>
+            <button
+              onClick={() => handleLearnMoreClick("/workinprogress")}
+              className="text-blue-900 hover:bg-blue-500 hover:shadow-sm hover:shadow-cyan-500 hover:text-white font-bold p-4 mt-16 transition duration-200 ease-in-out rounded-sm"
+            >
+              {"View all >"}
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* <ContactForm/> */}
       <Footer />
     </>
   );

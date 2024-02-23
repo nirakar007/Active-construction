@@ -6,14 +6,16 @@ import images from "../components/data/wip_sliderImgs";
 import GridCarousel from "../components/sharedComponents/GridCarousel";
 import ContactForm from "../components/specific-components/ContactForm";
 import Footer from "../components/specific-components/Footer";
+import Reveal from "../animation/Reveal";
 
 function DesignPage() {
   return (
     <div>
-      <span className="flex justify-center">
+      <span className="flex justify-center mb-2">
       <h1 className="font-light">services/ </h1>
       <h1 className="text-lg">Design</h1>
       </span>
+      <Reveal>
       <div className="flex flex-col gap-5 mx-4">
         {/* <div className="flex items-center justify-center">
           <h1 className="text-sm text-neutral-500">services /</h1>
@@ -68,28 +70,28 @@ function DesignPage() {
         </div>
 
         <div className="flex flex-col items-center justify-center mt-20">
-          <h1 className="text-3xl font-light font-jost mb-10">Why Us?</h1>
+          <h1 className="text-3xl font-light font-jost mb-5">Why Us?</h1>
           <div className="px-16 rounded-full">
-            <div className="flex flex-col items-center justify-center mb-10 bg-teal-50 p-6 shadow-sm rounded-md">
+            <div className="flex flex-col items-center justify-center mb-10 bg-sky-50 p-6 shadow-sm rounded-md hover:shadow-md mt-16 hover:scale-105 transition duration-200">
               <h2 className="font-medium text-xl">Personalized Creativity:</h2>
               <p className="font-light pt-2">
                 Collaborate for a design that aligns with your vision.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center mb-10 bg-amber-50 p-6 shadow-sm rounded-md">
+            <div className="flex flex-col items-center justify-center mb-10 bg-teal-50 p-6 shadow-sm rounded-md hover:shado mt-16 hover:scale-105 transition duration-200">
               <h2 className="font-medium text-xl">Integrated Approach:</h2>
               <p className="font-light pt-2">
                 Seamlessly blend interior and exterior aesthetics.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center mb-10 bg-teal-50 p-6 shadow-sm rounded-md">
+            <div className="flex flex-col items-center justify-center mb-10 bg-sky-50 p-6 shadow-sm rounded-md hover:shadow-md mt-16 hover:scale-105 transition duration-200">
               <h2 className="font-medium text-xl">Functional Elegance:</h2>
               <p className="font-light pt-2">
                 Prioritize both form and function for practical yet stunning
                 spaces.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center mb-10 bg-amber-50 p-6 shadow-sm rounded-md">
+            <div className="flex flex-col items-center justify-center mb-10 bg-teal-50 p-6 shadow-sm rounded-md hover:shado mt-16 hover:scale-105 transition duration-200">
               <h2 className="font-medium text-xl">Quality Craftsmanship:</h2>
               <p className="font-light pt-2">
                 Ensure longevity with our commitment to quality.
@@ -116,6 +118,7 @@ function DesignPage() {
           
         </div> */}
       </div>
+      </Reveal>
         <Footer />
     </div>
   );

@@ -12,5 +12,6 @@ public interface UserService {
     void categorizeUsers();
 
     void uploadImage(Long userId, MultipartFile imageFile);
+    User getUserById(Long userId);
 
 }

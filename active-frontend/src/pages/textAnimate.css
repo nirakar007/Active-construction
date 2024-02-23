@@ -20,14 +20,14 @@
   }
 
   .textConsult{
-    background: linear-gradient(to right, #6e8bff, #2b6dd0);
+    background: linear-gradient(to right, #1dc11b, #058137);
     -webkit-background-clip: text;
     color: transparent;
     background-size: 100% 200%;
   }
 
   .textPlan{
-    background: linear-gradient(to right, #3eb2ff, #dec400);
+    background: linear-gradient(to right, #0b64f4, #086ebc);
     -webkit-background-clip: text;
     color: transparent;
     background-size: 100% 200%;
@@ -46,3 +46,6 @@
     color: transparent;
     background-size: 100% 200%;
   }
+
+
+  

@@ -20,9 +20,9 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/add")
-    public String add(@RequestBody User user){
-        userService.saveUser(user);
-        return "New User Added.";
+    public ResponseEntity<String> add(@RequestBody UserRequest userRequest){
+        userService.saveUser(convertToUser(userRequest));
+        return ResponseEntity.ok("New User Added.");
     }
 
     @GetMapping("/admins")
@@ -36,16 +36,36 @@ public class UserController {
         return ResponseEntity.ok("Users categorized successfully.");
     }
 
-    // @PostMapping("/uploadImage/{userId}")
-    // public ResponseEntity<String> uploadImage(@PathVariable Long userId, @RequestParam MultipartFile imageFile) {
-    //     User addedUser = userService.saveUser(user);
-    //     Map<String, Long> response = new HashMap<>();
-    //     response.put("userId", addedUser.getId());
+    private User convertToUser(UserRequest userRequest) {
+        User user = new User();
+        user.setName(userRequest.getName());
+        user.setEmail(userRequest.getEmail());
+        user.setPhone(userRequest.getPhone());
+        user.setQuery(userRequest.getQuery());
+        user.setImage(userRequest.getImage());
+        user.setRole(userRequest.getRole());
+        user.setMeetingDate(userRequest.getMeetingDate()); // Set scheduled meeting date
+        return user;
+    }
+
+    @PostMapping("/uploadImage/{userId}")
+    public ResponseEntity<String> uploadImage(@PathVariable Long userId, @RequestParam MultipartFile imageFile) {
+        // Fetch the existing user
+        User existingUser = userService.getUserById(userId);
+
+        // Check if the user exists
+        if (existingUser == null) {
+            return ResponseEntity.badRequest().body("User not found with ID: " + userId);
+        }
 
 
-    //     userService.uploadImage(userId, imageFile);
-    //     return ResponseEntity.ok("Image uploaded successfully");
-    // }
+        // userService.saveUser(existingUser); // Uncomment to save the user again
+
+        // Upload image for the user
+        userService.uploadImage(userId, imageFile);
+
+        return ResponseEntity.ok("Image uploaded successfully for user with ID: " + userId);
+    }
 
 
 }

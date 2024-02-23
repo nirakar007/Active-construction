@@ -20,7 +20,7 @@ const TextAnimation = ({ text }) => {
       animate={controls}
       transition={{ duration: 0.9 }}
     >
-      <h2 className="text-2xl font-jost textBoink">
+      <h2 className="text-4xl font-jost textBoink animate-bounce">
         {text}
       </h2>
     </motion.div>

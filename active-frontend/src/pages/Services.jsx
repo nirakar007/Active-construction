@@ -13,11 +13,10 @@ function Services() {
     <div>
       {/* <div className="h-[10vh] w-full border-2"></div> */}
       {/* try to Make the images in them float */}
+          <Reveal>
         <div className="flex flex-col gap-2 mx-28 mt-16">
           {/* DESIGN */}
-          <Reveal>
           <DesignSection />
-          </Reveal>
           {/* CONSULT Section */}
           <ConsultSection />
 
@@ -30,6 +29,7 @@ function Services() {
           {/* Construction section  */}
           <ConstructionSection />
         </div>
+          </Reveal>
         <Footer />
     </div>
   )
