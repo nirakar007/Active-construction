@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Reveal from "../animation/Reveal";
 import ImageGrid from "../components/sharedComponents/ImageGrid";
 import Footer from "../components/specific-components/Footer";
 import ContactForm from "../components/specific-components/ContactForm";
+import images from "../components/data/wip_sliderImgs";
+
 
 function ConstructionPage() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return (
     <div>
       <span className="flex justify-center">
@@ -28,11 +33,11 @@ function ConstructionPage() {
           </span>
         <Reveal>
           <div className="mt-10">
-            <ImageGrid />
+            <ImageGrid imageDataset={images}/>
           </div>
         </Reveal>
       </div>
-      <div className="mt-36">
+      <div className="mt-36 flex justify-center">
       <ContactForm/>
       </div>
         </Reveal>

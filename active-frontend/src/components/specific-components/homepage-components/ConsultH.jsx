@@ -25,35 +25,46 @@ function ConsultH() {
             <div className="flex gap-5 text-neutral-500 px-10">
               <h2
                 className={`text-2xl ${
-                  activeIndex === 0 ? "font-semibold animate-bounce text-orange-600" : "font-light"
+                  activeIndex === 0
+                    ? "font-semibold animate-bounce text-orange-600"
+                    : "font-light"
                 }`}
-                
               >
                 Experienced,
               </h2>
               <h2
                 className={`text-2xl ${
-                  activeIndex === 1 ? "font-semibold animate-bounce text-sky-600" : "font-light"
+                  activeIndex === 1
+                    ? "font-semibold animate-bounce text-sky-600"
+                    : "font-light"
                 }`}
               >
                 Skilled,
               </h2>
               <h2
                 className={`text-2xl ${
-                  activeIndex === 2 ? "font-semibold animate-bounce text-yellow-600" : "font-light"
+                  activeIndex === 2
+                    ? "font-semibold animate-bounce text-yellow-600"
+                    : "font-light"
                 }`}
               >
                 Enthusiastic.
               </h2>
             </div>
 
-            <p className="text-green-800 mt-2">
-              All the good parts.
-            </p>
+            <p className="text-green-800 mt-2">All the good parts.</p>
           </div>
         </div>
-        <div className="mt-10 w-full h-[50vh] border cursor-pointer" 
-        onClick={() => handleLearnMoreClick("/consult")}></div>
+        <div
+          className="mt-10 w-full h-auto border cursor-pointer object-cover mb-10 "
+          onClick={() => handleLearnMoreClick("/consult")}
+        >
+          <img
+            src="src/assets/images/consult.jpg"
+            alt="image"
+            className="w-[500px] transform transition-transform duration-500 ease-in-out hover:translate-z-50"
+          />
+        </div>
       </div>
     </div>
   );

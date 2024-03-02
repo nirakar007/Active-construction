@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import "./textAnimate.css";
 import ContactForm from "../components/specific-components/ContactForm";
@@ -6,11 +6,14 @@ import Footer from "../components/specific-components/Footer";
 import Reveal from "../animation/Reveal";
 
 function SurveyPlotPage() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   const flowingGradientVariants = {
     initial: { backgroundPosition: "100% 0%" },
     animate: {
       backgroundPosition: "0% 100%",
-      transition: { repeat: Infinity, duration: 1, ease: "linear" },
+      transition: { repeat: 1, duration: .5, ease: "linear" },
     },
   };
   return (
@@ -37,21 +40,21 @@ function SurveyPlotPage() {
             </p>
           </div>
         </div>
-        <div className="h-full p-10">
+        <div className="w-[800px] p-10 overflow-hidden">
           <img
-            src="https://www.cadpro.com/wp-content/uploads/2019/05/Accurate-Plot-Plan-Designs.png"
-            alt=""
+            src="src/assets/images/survey.jpg"
+            alt="image"
+            className="w-full transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110"
           />
         </div>
       </div>
 
-      <div className="flex h-[70vh]">
-        <div className="h-full"></div>
-        <div className="h-full object-cover p-10">
+      <div className="flex mt-28">
+        <div className="w-[800px] p-10 overflow-hidden">
           <img
-            src="https://capsurvey.com.au/wp-content/uploads/2017/01/engineering-surveyors-rockhampton.jpg"
-            alt=""
-            className="rounded-md"
+            src="src/assets/images/survey.jpg"
+            alt="image"
+            className="rounded-md w-full transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110"
           />
         </div>
         <div className="mt-24 mx-20">
@@ -82,7 +85,9 @@ function SurveyPlotPage() {
         </p>
       </div>
       </Reveal>
+      <div className="flex justify-center">
       <ContactForm />
+      </div>
       <Footer />
     </div>
   );

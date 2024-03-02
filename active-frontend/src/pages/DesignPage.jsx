@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import Spline from "@splinetool/react-spline";
 import Carousel from "../components/sharedComponents/Carousel";
 import imagesDesignPage from "../components/data/designPageImages";
@@ -9,6 +9,9 @@ import Footer from "../components/specific-components/Footer";
 import Reveal from "../animation/Reveal";
 
 function DesignPage() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  },[])
   return (
     <div>
       <span className="flex justify-center mb-2">

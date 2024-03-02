@@ -19,8 +19,9 @@ function PlanningH() {
                 <h2 className="text-2xl font-semibold text-blue-600">Foolproof Planning.</h2>
             </div>
             </div>
-            <div className="mt-10 w-full h-[50vh] border cursor-pointer"
+            <div className="mt-10 w-full h-[50vh] cursor-pointer"
             onClick={() => handleLearnMoreClick("/planning")}>
+          <img src="src/assets/images/plan2.jpg" alt="image" className="w-[500px] transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110" />
 
             </div>
         </div>

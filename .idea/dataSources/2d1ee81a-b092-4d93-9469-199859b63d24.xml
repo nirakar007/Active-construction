@@ -955,7 +955,7 @@
     </schema>
     <schema id="304" parent="1" name="active">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-02-13.08:23:49</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-02-29.07:53:33</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="305" parent="1" name="eclat">
@@ -980,62 +980,5 @@
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="310" parent="304" name="user">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="311" parent="310" name="id">
-      <AutoIncrement>13</AutoIncrement>
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="312" parent="310" name="email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="313" parent="310" name="name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="314" parent="310" name="phone">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="315" parent="310" name="query">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <column id="316" parent="310" name="role">
-      <DasType>enum(&apos;USER&apos;, &apos;ADMIN&apos;)|0e</DasType>
-      <Position>6</Position>
-    </column>
-    <column id="317" parent="310" name="category">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <column id="318" parent="310" name="has_contract">
-      <DasType>bit(1)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>8</Position>
-    </column>
-    <column id="319" parent="310" name="image">
-      <DasType>tinyblob|0s</DasType>
-      <Position>9</Position>
-    </column>
-    <column id="320" parent="310" name="meeting_date">
-      <DasType>datetime(6)|0s</DasType>
-      <Position>10</Position>
-    </column>
-    <index id="321" parent="310" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="322" parent="310" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>

@@ -4,8 +4,8 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   const handleLogoClick = () => {
-    setActiveTab("");
     window.scrollTo(0, 0);
+    setActiveTab("");
   };
   return (
     <footer className="bg-customColor text-white p-4 text-center">

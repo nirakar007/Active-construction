@@ -20,9 +20,9 @@ function ConstructionH() {
             <p className="font-medium mt-2">All in one.</p>
           </div>
         </div>
-          <div className="mt-10 w-full h-[50vh] border cursor-pointer"
+          <div className="mt-10 w-full cursor-pointer overflow-hidden"
           onClick={() => handleLearnMoreClick("/construction")}>
-
+            <img src="src/assets/banasthali_wip/exterior/construction2.gif" alt="image" className='w-[500px] transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110' />
           </div>
       </div>
     </div>

@@ -1,11 +1,11 @@
 export const navbarList = [
-    // {
-    //     title: "Work In Progress",
-    //     id: "wip",
-    // },
     {
         title: "Services",
         id: "services",
+    },
+    {
+        title: "Projects",
+        id: "projects",
     },
     {
         title: "Gallery",

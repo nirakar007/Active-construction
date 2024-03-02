@@ -8,18 +8,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59d2be0e-c0ae-4341-a3b1-5c28ac7529a1" name="Changes" comment="made category and hasContract column">
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/banasthali_wip/exterior/construction.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/banasthali_wip/exterior/construction2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/consult.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/design1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/design2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/design3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/plan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/plan1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/assets/images/survey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/data/constructionImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/data/designImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/data/planImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/Calender.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/CustomCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ProjectCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ProjectItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/MeetingForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/adminpage-components/GalleryManagement.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/adminpage-components/MeetingManagement.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/adminpage-components/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/adminpage-components/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/adminpage-components/sidebarElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/AdminPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/ProjectDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active-frontend/src/pages/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/ActiveBackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/config/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/config/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/config/JwtTokenValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/dto/ContactFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/dto/ImageUploadDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/model/ContactForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/model/ImageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/model/ImageUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/model/USER_ROLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/repository/ContactFormRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/repository/ImageDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/repository/ImageUploadRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/requests/LoginRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/response/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/service/ContactFormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/java/com/example/active_backend/service/ImageDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/active_backend/src/test/java/com/example/active_backend/ActiveBackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d1ee81a-b092-4d93-9469-199859b63d24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/animation/Reveal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/animation/Reveal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/animation/TextAnimation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/animation/TextAnimation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/data/navbarList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/Carousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/CarouselItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/CarouselItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ImageGrid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/sharedComponents/ImageGrid.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/ContactForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConstructionH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConstructionH.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConsultH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/ConsultH.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/DesignH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/DesignH.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/HeroSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/PlanningH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/PlanningH.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/SurveyPlotH.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/components/specific-components/homepage-components/SurveyPlotH.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/ConstructionPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/ConstructionPage.jsx" afterDir="false" />
@@ -32,12 +92,24 @@
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/Services.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/SurveyPlotPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/SurveyPlotPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/WorkInProgress.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/WorkInProgress.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active-frontend/src/pages/textAnimate.css" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/pages/textAnimate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/active-frontend/src/router/TheRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/ActiveConstructionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/controller/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/java/com/active/active_construction/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/active_construction/src/test/java/com/active/active_construction/ActiveConstructionApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,6 +160,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.ActiveConstructionApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -103,6 +176,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.active.active_construction.config" />
+      <recent name="com.active.active_construction.controller" />
       <recent name="com.active.active_construction.model" />
     </key>
   </component>
@@ -150,6 +225,17 @@
       <workItem from="1707812591162" duration="53000" />
       <workItem from="1707872748553" duration="16000" />
       <workItem from="1708145328420" duration="4617000" />
+      <workItem from="1708860021115" duration="1634000" />
+      <workItem from="1708930186467" duration="3929000" />
+      <workItem from="1708971283325" duration="777000" />
+      <workItem from="1709002311634" duration="13549000" />
+      <workItem from="1709056934397" duration="3063000" />
+      <workItem from="1709129653485" duration="902000" />
+      <workItem from="1709144720638" duration="65000" />
+      <workItem from="1709192195040" duration="584000" />
+      <workItem from="1709192898310" duration="775000" />
+      <workItem from="1709193945139" duration="16605000" />
+      <workItem from="1709264314368" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="made category and hasContract column">
       <option name="closed" value="true" />

@@ -28,11 +28,11 @@ function HeroSection() {
           </div>
           <div class="relative">
             {/* image hero section */}
-            <div class="flex justify-end rounded-lg transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110">
+            <div class="flex justify-end rounded-lg overflow-hidden">
               <img
                 src="src/assets/images/office.jpg"
                 alt="image"
-                className="w-[1280px] h-[500px] object-cover rounded-md"
+                className="w-[1280px] h-[500px] object-cover rounded-md transform transition-transform duration-500 ease-in-out hover:translate-z-50 hover:scale-110"
               />
             </div>
           </div>
