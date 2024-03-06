@@ -14,6 +14,11 @@ const imagesDesignPage = [
         url: 'src/assets/images/SudanHS_18.jpg',
         
     },
+    {
+        id: 4,
+        url: 'src/assets/images/SudanHS_16.jpg',
+        
+    }
 ];
 
 export default imagesDesignPage;

@@ -5,7 +5,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Reveal from "../animation/Reveal";
 
 function Register() {
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [passwordsMatch, setPasswordsMatch] = useState(true);
@@ -13,8 +13,11 @@ function Register() {
   const [registrationError, setRegistrationError] = useState(null);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [role, setRole] = useState("");
 
   const navigate = useNavigate();
+  const jwtToken =
+    "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDk2MjA4MDksImV4cCI6MTcwOTYyMjI0OX0.Bg2VeBKf-KNcro98dmYJXVkcrshLDmWxu4Wh53fFB6I";
 
   const handleClick = (path) => {
     navigate(path);
@@ -28,7 +31,7 @@ function Register() {
       setPasswordsMatch(true);
 
       // Check if all fields are filled
-      if (!username || !password || !confirmPassword) {
+      if (!email || !password || !confirmPassword) {
         setFieldsFilled(false);
         return;
       }
@@ -39,14 +42,30 @@ function Register() {
         return;
       }
 
-      const response = await axios.post("http://localhost:5000/auth/signup", {
-        username,
-        password,
-      });
+      const response = await axios.post(
+        "http://localhost:8080/auth/register",
+        {
+          email,
+          password,
+          confirmPassword,
+          role,
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${jwtToken}`, 
+          },
+        }
+      );
 
       if (response.status === 201) {
+          // Assuming the new token is returned in the login response
+      const newToken = loginResponse.data.token;
+
+      // Store the new token securely, for example, in localStorage
+      localStorage.setItem(jwtToken, newToken)
         handleClick("/login");
         console.log("Registration successful");
+        alert("Registration Successful.");
       } else {
         // Check if the response body is not empty before parsing it as JSON
         const responseBody = await response.text();
@@ -75,7 +94,7 @@ function Register() {
   }, [fieldsFilled, passwordsMatch]);
 
   return (
-    <div className="mt-10">
+    <div className="p-5">
       <Reveal>
         <div className="flex flex-col items-center justify-center">
           <h2 className="font-jost text-2xl m-5 mb-10">Register</h2>
@@ -84,8 +103,8 @@ function Register() {
               Email:
               <input
                 type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="m-3 text-lg font-jost p-3 bg-transparent focus:bg-white focus:border-sky-500 border-b-2 focus:outline-none focus:border-b-2 h-[5vh]"
               />
             </label>
@@ -133,6 +152,20 @@ function Register() {
                   />
                 )}
               </span>
+            </label>
+            <label className="flex gap-16 items-center opacity-60">
+              Role:
+              <select
+                value={role}
+                onChange={(e) => setRole(e.target.value)}
+                className="m-3 text-sm font-jost bg-transparent focus:bg-white focus:border-sky-500 border-b-2 focus:outline-none focus:border-b-2 h-[5vh]"
+              >
+                <option value="" disabled>
+                  Select Role
+                </option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+              </select>
             </label>
             {!passwordsMatch && (
               <p className="text-red-700 text-sm font-jost flex justify-center opacity-70">

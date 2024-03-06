@@ -19,6 +19,7 @@ function Services() {
         <div className="flex flex-col gap-2 mx-28 mt-16">
           {/* DESIGN */}
           <DesignSection />
+          
           {/* CONSULT Section */}
           <ConsultSection />
 

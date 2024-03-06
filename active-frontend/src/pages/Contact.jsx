@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import ContactForm from "../components/specific-components/ContactForm";
+import Footer from "../components/specific-components/Footer";
 import Reveal from "../animation/Reveal";
 
 function Contact() {
@@ -14,6 +15,9 @@ function Contact() {
           {/* <span className="mt-16"><MeetingForm /></span> */}
         </div>
       </Reveal>
+      <div className="mt-32">
+      <Footer/>
+      </div>
     </div>
   );
 }
